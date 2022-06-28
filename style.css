@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@500&family=Poppins&display=swap');
+
+img {
+
+width: 350px;
+
+}
+
+body {
+
+background-color: whitesmoke;
+
+
+}
+
+
+p {
+
+font-family: Poppins;
+font-size: medium;
+
+}
+
+h1 {
+
+font-family: Poppins;
+font: bolder;
+
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Poppins;
+    width: 700px;
+}
+
+b {
+
+font-family: Poppins;
+
+}
+
+ul {
+
+font-family: Poppins;
+
+}
+
+li {
+
+font-family: Poppins;
+
+}
+
+h4 {
+
+font-family: Poppins;
+
+}
+
+.menu {
+
+position: absolute;
+left: 32%;
+font-family: Poppins;
+width: 1353px;
+height: 30px;
+bottom: 739px;
+cursor: pointer;
+bottom: 94%;
+
+
+
+}
+
+a {
+
+color: black;
+text-decoration: none;
+
+
+}
+
+h2 {
+
+
+font-family: Poppins;
+
+}
+
+button {
+
+
+    color: white;
+    background-color: black;
+    position: absolute;
+    bottom: 47%;
+    width: 90px;
+    height: 40px;
+    border-radius: 30px;
+    font-family: Poppins;
+    transition: transform 3.0s ease;
+    cursor: pointer;
+    left: 44%;
+
+}
+
+button::after, button::before {
+
+content: '';
+position:absolute;
+opacity: 0.3;
+background-color: black;
+border-radius: inherit;
+width: 100%;
+height: 100%;
+left: 0;
+bottom: 0;
+z-index: -1;
+transition: transform 0.3 ease;
+
+
+
+}
+
+button:hover {
+
+transform: translate(-12px,-12px);
+
+
+}
+
+button::after{
+
+    transform: translate(-6px,-6px);
+
+}
+
+button::before{
+
+    transform: translate(12px,12px);
+
+}
+
+
+.index {
+
+display: flex;
+justify-content: center;
+align-items: center;
+
+
+
+}
+
+.wrapper .button{
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    margin: 0 5px;
+    overflow: hidden;
+    background: white;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
+    transition: all 0.3s ease-out;
+  }
+  .wrapper .button:hover{
+    width: 200px;
+  }
+  .wrapper .button .icon{
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    border-radius: 50px;
+    box-sizing: border-box;
+    line-height: 60px;
+    transition: all 0.3s ease-out;
+  }
+  .wrapper .button:nth-child(1):hover .icon{
+    background: #4267B2;
+  }
+  .wrapper .button:nth-child(2):hover .icon{
+    background: #1DA1F2;
+  }
+  .wrapper .button:nth-child(3):hover .icon{
+    background: #E1306C;
+  }
+  .wrapper .button:nth-child(4):hover .icon{
+    background: #333;
+  }
+  .wrapper .button:nth-child(5):hover .icon{
+    background: #ff0000;
+  }
+  .wrapper .button .icon i{
+    font-size: 25px;
+    line-height: 60px;
+    transition: all 0.3s ease-out;
+  }
+  .wrapper .button:hover .icon i{
+    color: white;
+  }
+  .wrapper .button span{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 60px;
+    margin-left: 10px;
+    transition: all 0.3s ease-out;
+  }
+  .wrapper .button:nth-child(1) span{
+    color: #4267B2;
+  }
+  .wrapper .button:nth-child(2) span{
+    color: #1DA1F2;
+  }
+  .wrapper .button:nth-child(3) span{
+    color: #E1306C;
+  }
+  .wrapper .button:nth-child(4) span{
+    color: #333;
+  }
+  .wrapper .button:nth-child(5) span{
+    color: #ff0000;
+  }
+
+
+  span {
+
+
+font-family: Poppins;
+
+  }
+
+.fade-in {
+
+
+
+animation: fadeIn 2s;
+
+
+}
+
+@keyframes fadeIn {
+  
+from {
+
+  opacity: 0;
+
+}
+
+to {
+
+opacity: 1;
+
+}
+
+}
