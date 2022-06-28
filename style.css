@@ -24,7 +24,8 @@ font-size: medium;
 h1 {
 
 font-family: Poppins;
-font: bolder;
+
+
 
 }
 
@@ -258,4 +259,27 @@ opacity: 1;
 
 }
 
+}
+
+.Images {
+
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+.Contact {
+
+position: absolute;
+right: 22%;
+
+
+}
+
+.Socials-Icon {
+
+position: absolute;
+bottom: 20%;
+left:42%;
 }
