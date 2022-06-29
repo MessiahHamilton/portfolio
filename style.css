@@ -79,6 +79,7 @@ bottom: 94%;
 
 a {
 
+
 color: black;
 text-decoration: none;
 
@@ -399,3 +400,4 @@ left:42%;
 .progress-line.mysql span::after{
   content: "75%";
 }
+
