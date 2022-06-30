@@ -83,20 +83,7 @@ font-family: Poppins;
 
 }
 
-.menu {
 
-position: absolute;
-left: 32%;
-font-family: Poppins;
-width: 1353px;
-height: 30px;
-bottom: 739px;
-cursor: pointer;
-bottom: 94%;
-
-
-
-}
 
 .skill-bars {
 
@@ -108,12 +95,10 @@ bottom: 94%;
 
 a {
 
-
-color: black;
-text-decoration: none;
-
-
-}
+  color: black;
+   text-decoration: none;
+  
+  }
 
 h2 {
 
@@ -469,3 +454,15 @@ left: 20px;
 
   }
   
+.moon {
+  background: #000;
+  border-radius: 100px;
+  padding: 15px;
+width: 20px;
+position: absolute;
+top:7px;
+right: 1310px;
+cursor:pointer;
+padding-left: 50px;
+}
+
